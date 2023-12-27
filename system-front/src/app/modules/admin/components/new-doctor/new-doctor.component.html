@@ -1,0 +1,19 @@
+<form [formGroup]="form" (ngSubmit)="saveDoctor()">
+  <div>
+    <input class="form-control" type="text" placeholder="Name" formControlName="name">
+  </div>
+  <br>
+  <div>
+    <input class="form-control" type="text" placeholder="Contact" formControlName="contact">
+  </div>
+  <br>
+  <div>
+    <input class="form-control" type="text" placeholder="Address" formControlName="address">
+  </div>
+  <br>
+  <div>
+    <input class="form-control" type="text" placeholder="salary" formControlName="salary">
+  </div>
+  <br>
+  <button type="submit" class="btn btn-primary col-12">Save Doctor</button>
+</form>
